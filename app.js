@@ -20,7 +20,7 @@ checkButton.addEventListener("click", function getValues() {
             message.innerText = "Yay! Your birthday is lucky! 🥳";
         } else {
             message.style.display = "block";
-            message.innerText = " Your birthday is not lucky 😕 , but your year is 😉 ";
+            message.innerText = " Sorry!! Yours is not a lucky birthday";
         }
     } else {
         message.innerText = "Please enter both the fields."
